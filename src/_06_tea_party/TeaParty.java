@@ -7,7 +7,7 @@ public class TeaParty {
 	public String welcome(String name, boolean isWoman, boolean isKnighted) {
 
 	if(isWoman) {
-		return "Hello Ms."+name;
+		return "Hello Ms. "+name;
 	}
 	if(isWoman && isKnighted) {
 			return  "Hello Lady "+name;
@@ -15,7 +15,7 @@ public class TeaParty {
 	}
 	
 	if(!isWoman) {
-		return "Hello Mr."+name;
+		return "Hello Mr. "+name;
 	}
 	if(!isWoman && isKnighted) {
 			return  "Hello Sir "+name;
